@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box1{
+    border: 1px solid red;
+    width: 150px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, red 0%, red 33%, white 33%, white 66%, red 66%, red 100%);    
+}
+.box2{
+    margin: 30px 0;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    width: 530px;
+    padding: 10px;
+}
+.box2 h2{
+    font-size: 13px;
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(94, 91, 91);
+    margin-bottom: 10px;
+}
+.box2 ul{
+    list-style: none;
+    font-size: 10px;
+    text-align: center;
+}
+.box2 ul li{
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 4px;
+}
+.box2 ul li img{
+    width: 30px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.box2 li a{
+    color:royalblue
+}
+p{
+    font-size: 9px;
+    color:rgb(94, 91, 91);
+    text-align: center;
+    margin: 10px 0 15px 0;
+}
+form{
+    width: 490px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.192);
+}
+form p{
+    font-size: 10px;
+    color:black;
+    text-align: center;
+    margin: 0px auto;
+    font-weight: bold;
+    transform: translateY(-8px);
+    width: 170px;
+    background-color: white;
+}
+.reg{
+    width: 340px;
+    display: inline-block;
+}
+.reg>*{
+    display: inline-block;
+}
+input[type="text"]{
+    margin-bottom: 5px;
+}
+input[type="submit"]{
+    display: inline-block;
+    background-color: royalblue;
+    color: white;
+    padding: 3px 30px;
+    margin-left: 20px;
+    vertical-align: 12px;
+    border: none;
+}
+.box3{
+    border: 1px solid rgba(128, 128, 128, 0.452);
+}
+.box3 .wrapper{
+    margin-top: 10px;
+}
+.box3 .card{
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 8px;
+}
+.box3 .card:last-child{
+    margin-right: 0;
+}
+.box3 .card img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 7px solid rgba(128, 128, 128, 0.452);
+    vertical-align: top;
+}
+.box3 .card p{
+    display: inline-block;
+    color: royalblue;
+}
